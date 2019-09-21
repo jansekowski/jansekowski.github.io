@@ -69,7 +69,25 @@
             <tr></tr>
         </tfoot>
     </table>
- 
+    <!-- Formularz -->
+    <form action="" method="POST">
+        <label for="user">Imię i nazwisko</label>
+        <input type="text" id="user" name="user" placeholder="Imię i nazwisko">
+        <input type="email" id="user" name="email" placeholder="mail" disabled>
+        <input type="number" id="number" name="quantity" value=2><br>
+        <input type="checkbox" id="agreement" name="agreement" required>
+        <label for="agreement">Wyrażam zgodę na...</label>
+        <label><input type="radio" id="gender" name="gender">Kobieta</label>
+        <label><input type="radio" id="gender" name="gender">Mężczyzna</label>
+        <select name="cities">
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdynia">Gdynia</option>
+            <option value="Kraków">Kraków</option>
+        </select>
+        <textarea name="message" placeholder="rozpisz się trochę"></textarea>
+        <input type="submit" value="wyślij wiadomość">
+    </form>
+
 </body>
 
 </html>
