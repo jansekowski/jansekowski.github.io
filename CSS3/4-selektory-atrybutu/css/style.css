@@ -1,0 +1,27 @@
+[title]{
+    color: blueviolet;
+}
+
+[title~="Container"]{
+    color: green
+}
+
+[title*="tion"]{
+    color: fuchsia;
+}
+
+[title^="More"]{
+    text-transform: uppercase;
+}
+
+[title$="e"]{
+    background-color: yellow;
+}
+
+[title]:last-child{
+    background-color: lightsalmon;
+}
+
+nav > ul > li > a[title]{
+    background-color: crimson;
+}

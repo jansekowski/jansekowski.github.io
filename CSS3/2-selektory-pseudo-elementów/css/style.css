@@ -1,0 +1,9 @@
+#pierwszy::before{
+    content: "****";
+    color:rgb(179, 35, 35);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#drugi::after{
+    content: "@@@@@@";
+    color: darkblue
+}
