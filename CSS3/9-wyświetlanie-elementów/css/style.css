@@ -1,0 +1,28 @@
+#p1{
+    background-color: #498;
+}
+
+#p2{
+    background-color: #90e;
+}
+
+#inline-p1{
+    background-color: #802;
+    display: inline;
+}
+
+#inline-p2{
+    background-color: #888;
+    display: inline;
+}
+#inline-block-elements li{
+    background-color: #196;
+    display: inline-block;
+    width: 90px;
+    height: 45px;
+    margin: 10px;
+
+}
+#display-none{
+    display: none;
+}
