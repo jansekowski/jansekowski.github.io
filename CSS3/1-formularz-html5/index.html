@@ -10,25 +10,25 @@
 <body>
    
     <!-- Zadanie domowe zrob z wykorzystaniem serwisu https://formspree.io -->
-    
+    <div id="formularz">
     <form action="https://formspree.io/l.badocha@arena108.pl" method="POST">
-        <label for="name">Imię:</label>
+        <label for="name">Imię:</label><br>
         <input type="text" name="name" id="name">
 
         <br>
-        <label for="lastname">Nazwisko:</label>
+        <label for="lastname">Nazwisko:</label><br>
         <input type="text" name="lastname" id="lastname">
 
         <br>
-        <label for="mail">E-mail:</label>
+        <label for="mail">E-mail:</label><br>
         <input type="email" name="_replyto" id="mail">
 
         <br>
-        <label for="phone">Telefon:</label>
+        <label for="phone">Telefon:</label><br>
         <input type="tel" name="phone" id="phone">
 
         <br>
-        <label for="city">Wybierz miasto:</label>
+        <label for="city">Wybierz miasto:</label><br>
         <select name="city" id="city">
             <option value="krakow">Kraków</option>
             <option value="warszawa">Warszawa</option>
@@ -43,14 +43,15 @@
         <br>
 
         <br>
-        <label for="message">Wiadomość: </label>
+        <label for="message">Wiadomość: </label><br>
         <textarea name="message" id="message"></textarea>
         <br>
         <input type="checkbox" id="agreement" name="agreement">
-        <label for="agreement">Wyrażam zgodę na przetwarzanie danych osobowych</label>
+        <label for="agreement">Wyrażam zgodę na przetwarzanie danych osobowych</label><br>
         <br>
         <input type="submit" value="Send">
     </form>
+</div>
 </body>
 
 </html>

@@ -1,3 +1,62 @@
+*{line-height: 30px}
+
 *{
-    background-color: red
+    color:#ffffff;
+}
+
+div#formularz{
+    background-color: #213b50;
+    width: 600px;
+    padding: 20px;
+}
+
+input{
+    background-color: #2b4a64;
+    border: none;
+    font-family: sans-serif;
+}
+
+input:focus{
+    background-color: #4e708c;
+    outline-color: white;
+}
+
+select{
+    background-color: #2b4a64;
+    width: 300px;
+    border: none;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+textarea{
+    background-color: #2b4a64;
+    width: 300px;
+    height: 100px;
+    border: none;
+    font-family: sans-serif;
+    outline-color: white;
+}
+
+input[type="submit"]{
+    background-color: green;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+input[type="text"]{
+    width: 300px;
+}
+
+input[type="email"]{
+    width: 300px;
+}
+
+input[type="tel"]{
+    width: 300px;
 }
