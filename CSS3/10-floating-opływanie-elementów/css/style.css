@@ -1,0 +1,12 @@
+#ocelot{
+    float: none;
+}
+
+#ocelot2{
+    float: right;
+}
+
+p:last-child{
+    background-color: #1f1;
+    clear: both;
+}
