@@ -1,0 +1,30 @@
+*{
+    color: darkgreen;
+    padding: 50px;
+}
+
+p{
+    color: purple;
+}
+
+p#kasia{
+    background-color: coral;
+}
+
+div.lorak{color: maroon;}
+
+ul a {
+    background-color: beige;
+}
+
+a > span{
+    color: red;
+}
+
+li#pierwszy ~ li{
+    background-color: orange;
+}
+
+li#pierwszy + li{
+    background-color: navy;
+}
