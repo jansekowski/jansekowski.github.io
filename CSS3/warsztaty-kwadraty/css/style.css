@@ -1,0 +1,23 @@
+#big{
+    width: 1000px;
+    height: 1000px;
+    background-color: #666360;
+}
+
+#medium{
+    position: relative;
+    width: 900px;
+    height: 900px;
+    top: 50px;
+    left: 50px;
+    background-color: #a6a9b6;
+}
+
+#small-orange{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    bottom: 0px;
+    left: 0px;
+    background-color:#ff912e
+}
