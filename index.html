@@ -1,30 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-
-<body>
-  <form action="https://formspree.io/j.a.sekowski@gmail.com" method="POST">
-    <fieldset><legend>DANE PODSTAWOWE</legend></fieldset>
-    <label for="name">Imię i nazwisko: </label><input type="text" id="name" name="name">
-    <br>
-    <br>
-    <label for="email">Adres e-mail: </label><input type="email" id="email" name="email">
-    <br>
-    <br>
-    <label for="tel">Numer telefonu: </label><input type="tel" id="tel" name="tel">
-    <br>
-    <br>
-    <textarea name="message" id="message" placeholder="Napisz coś" cols="30" rows="10"></textarea>
-    <br>
-    <br>
-    <input type="submit" value="Wyślij!">
-  </form>
-</body>
-
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Formularz rejestracyjny</h1>
+    <form>
+      <label for="first-name">Imię:</label>
+      <input type="text" id="first-name" name="first-name" required>
+      <label for="last-name">Nazwisko:</label>
+      <input type="text" id="last-name" name="last-name" required>
+      <label for="email">Adres e-mail:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="email">Telefon:</label>
+      <input type="tel" id="tel" name="tel" required>
+      <label for="city">Miasto:</label>
+      <select name="city">
+        <option value="Kraków">Kraków</option>
+        <option value="Warszawa">Warszawa</option>
+        <option value="Gdańsk">Gdańsk</option>
+      </select>
+      <label for="gender">Płeć:</label>
+      <label><input type="radio" id="gender" name="gender" value="K">Kobieta</label>
+      <label><input type="radio" id="gender" name="gender" value="M">Mężczyzna</label>
+      <label><input type="radio" id="gender" name="gender" value="n/a">Nie chcę udzielać tej informacji</label>
+      <br>
+      <label><input type="checkbox" id="agreement" name="agreement" required>Wyrażam zgodę na przetwarzanie danych osobowych.</label>
+      <br>
+      <label for="message">Masz pytania? Napisz do nas:</label>
+      <textarea id="message" name="message" placeholder="Miejsce na Twoją wiadomość"></textarea>
+  </body>
 </html>
