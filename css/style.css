@@ -27,12 +27,12 @@ label{
 
   #submit{
     display: block;
-      background-color: seagreen;
-      color: antiquewhite;
-      text-transform: uppercase;
-      font-weight: 800;
-      width: 100px;
-      padding: 10px;
+    background-color: seagreen;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 100px;
+    padding: 10px;
   }
 
   #submit:focus{
