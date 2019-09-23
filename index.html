@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width">
     <title>Formularz rejestracyjny</title>
     <link rel="stylesheet" href="jansekowski.github.io/css/style.css"/>
-  </head>
+     </head>
   <body>
     <h1>Formularz rejestracyjny</h1>
-    <form>
+    <form action="https://formspree.io/j.a.sekowski@gmail.com" method="POST">
       <label for="first-name">Imię:</label>
       <input type="text" id="first-name" name="first-name" required>
       <label for="last-name">Nazwisko:</label>
@@ -24,13 +24,15 @@
         <option value="Gdańsk">Gdańsk</option>
       </select>
       <label for="gender">Płeć:</label>
-      <label><input type="radio" id="gender" name="gender" value="K">Kobieta</label>
+      <label><input type="radio" id="gender" name="gender" value="F">Kobieta</label>
       <label><input type="radio" id="gender" name="gender" value="M">Mężczyzna</label>
       <label><input type="radio" id="gender" name="gender" value="n/a">Nie chcę udzielać tej informacji</label>
       <br>
       <label><input type="checkbox" id="agreement" name="agreement" required>Wyrażam zgodę na przetwarzanie danych osobowych.</label>
       <br>
       <label for="message">Masz pytania? Napisz do nas:</label>
-      <textarea id="message" name="message" placeholder="Miejsce na Twoją wiadomość"></textarea>
+      <textarea id="message" name="message" placeholder="Miejsce na Twoją wiadomość" maxlength="1000"></textarea>
+      <input style="submit" id="submit" value="Wyślij">
+    </form>
   </body>
 </html>
