@@ -1,0 +1,76 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+h1{
+    color: blue;
+}
+
+HR{
+    width: 4em;
+    border: 1px solid blue;
+    margin-bottom: 50px;
+}
+
+nav{
+    text-align: center;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+#parts{
+    list-style-type: none;
+}
+
+#parts li{
+    display: inline;
+    margin: 20px;
+}
+
+section{
+    padding: 100px;
+}
+
+#about{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+#portrait{
+    border-radius: 50%;
+    padding: 40px;
+}
+
+#portfolio{
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.gallery{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-item{
+    width: 25%;
+}
+
+#contact{
+    
+}
