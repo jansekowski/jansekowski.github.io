@@ -49,17 +49,31 @@ HR{
     margin-bottom: 50px;
 }
 
-nav{
+nav.menu{
     text-align: center;
     background-color: blue;
-    padding: 10px;
+    padding: 1em;
     color: white;
+    margin: 0px;
 }
 
-.parts li{
+ul.parts li{
     display: inline;
-    margin: 2em;
     text-align: center;
+    padding: 1em 2em;
+}
+
+a.section-link{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    margin: 0px;
+    padding: 1em 2em;
+}
+
+.section-link:hover{
+    color: black;
+    background-color: lightblue;
 }
 
 section{
@@ -88,23 +102,17 @@ p, a{
     color: white;
 }
 
-.section-link{
-    text-decoration: none;
-    color: white;
-    font-size: 1em;
-}
-
 .about{
     text-align: center;
-    margin-left: 40em;
-    margin-right: 40em;
+    margin-left: 20%;
+    margin-right: 20%;
     display: flex;
     justify-content: center;
 }
 
 .img-circle{
     border-radius: 50%;
-    width: 40em;
+    width: 50%;
 }
 
 .portfolio{
@@ -126,7 +134,6 @@ p, a{
     position: relative;
 }
 
-
 .flex-item img{
     height: 100%;
     width: 100%;
@@ -135,23 +142,22 @@ p, a{
 }
 
 .flex-item h3{
-    visibility: hidden;
     position: absolute;
-    text-align: center;
     height: 100%;
     width: 100%;
+    text-align: center;
+    background-color: rgba(0, 123, 255, 0.75);
     top: 0;
-    left: 0;
-    margin: 0;
-    background-color: blue;
+    text-transform: uppercase;
     color: white;
-    opacity: 0.5;
-    padding: 20%;
+    opacity: 0;
+    transition: all 0.5s;
+    margin: 0px;
+    padding-top: 3.5em;
 }
 
-.flex-item:hover h3{
-    visibility: visible;
-    transition: 0.5s linear;
+.flex-item h3:hover{
+    opacity: 1;
 }
 
 .contact form{
@@ -192,3 +198,4 @@ footer{
     background-color: lightgrey;
     padding: 5em;
 }
+
