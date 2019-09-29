@@ -6,53 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/75de697617.js" crossorigin="anonymous"></script>
     <title>Moje portfolio</title>
 </head>
 <body>
 <header>
-    <div id="claim">
+    <div class="claim">
         <h1>FRONT END DEVELOPER</h1>
         <HR></HR>
-        <p id="languages">HTML CSS JavaScript</p>
-        <a href="">DOWIEDZ SIĘ WIĘCEJ</a>
+        <p id="languages">HTML<span>·</span>CSS<span>·</span>JavaScript</p>
+        <a href="" class="button">DOWIEDZ SIĘ WIĘCEJ</a>
     </div>
 </header>
 <nav class="menu">
     <ul class="parts">
-        <li>O MNIE</li>
-        <li>PORTFOLIO</li>
-        <li>KONTAKT</li>
+        <li> <a class="section-link" href="#about">O MNIE</li></a>
+        <li><a class="section-link" href="#portfolio">PORTFOLIO</li></a>
+        <li><a class="section-link" href="#contact">KONTAKT</li></a>
     </ul>
 </nav>
-<section class="about">
+<section class="about" id="about">
     <div>
     <h2>O MNIE</h2>
     <HR></HR>
     <div><img class="img-circle" id="portrait" src="img/about.jpg" alt=""></div>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus optio non ratione voluptas, eos quisquam deleniti provident sunt voluptatibus. Voluptas, nemo. Excepturi nihil rerum autem quibusdam nostrum, animi dolorem aspernatur.</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex magni nulla numquam dolore sit deserunt praesentium blanditiis laborum quas, eaque ducimus! Et quaerat natus qui itaque ipsam quos neque alias?</p>
-    <div><a href="">MOJE PORTFOLIO</a></div>
+    <div><a href="" class="button">MOJE PORTFOLIO</a></div>
     </div>
 </section>
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
     <h2>PORTFOLIO</h2>
     <HR></HR>
     <div class="gallery">
-        <img class="flex-item"src="img/portfolio/photo-1.jpg" alt="">
-        <img class="flex-item"src="img/portfolio/photo-2.jpg" alt="">
-        <img class="flex-item"src="img/portfolio/photo-3.jpg" alt="">
-        <img class="flex-item"src="img/portfolio/photo-4.jpg" alt="">
-        <img class="flex-item"src="img/portfolio/photo-5.jpg" alt="">
-        <img class="flex-item"src="img/portfolio/photo-6.jpg" alt="">
-        <img class="flex-item"src="img/portfolio/photo-7.jpg" alt="">
-        <img class="flex-item"src="img/portfolio/photo-8.jpg" alt="">
-        <img class="flex-item"src="img/portfolio/photo-9.jpg" alt="">
-        <img class="flex-item"src="img/portfolio/photo-10.jpg" alt="">
-        <img class="flex-item"src="img/portfolio/photo-11.jpg" alt="">
-        <img class="flex-item"src="img/portfolio/photo-12.jpg" alt="">
+        <a href="#" class="flex-item"><img src="img/portfolio/photo-1.jpg" alt="1">
+            <h3>BLABLA sdfsdfsdf dfsd sfsdf fsddfd</h3></a>
+        
+        <a href="#" class="flex-item"><img src="img/portfolio/photo-2.jpg" alt="2">
+            <h3>BLABLA sdfsdfsdf dfsd sfsdf fsddfd</h3></a>
+        <a href="#" class="flex-item"><img src="img/portfolio/photo-3.jpg" alt="3">
+            <h3>BLABLA sdfsdfsdf dfsd sfsdf fsddfd</h3></a>
+        <a href="#" class="flex-item"><img src="img/portfolio/photo-4.jpg" alt="4">
+            <h3>BLABLA sdfsdfsdf dfsd sfsdf fsddfd</h3></a>
+        <a href="#" class="flex-item"><img src="img/portfolio/photo-5.jpg" alt="5">
+            <h3>BLABLA sdfsdfsdf dfsd sfsdf fsddfd</h3></a>
+        <a href="#" class="flex-item"><img src="img/portfolio/photo-6.jpg" alt="6">
+            <h3>BLABLA sdfsdfsdf dfsd sfsdf fsddfd</h3></a>
+        <a href="#" class="flex-item"><img src="img/portfolio/photo-7.jpg" alt="7">
+            <h3>BLABLA sdfsdfsdf dfsd sfsdf fsddfd</h3></a>
+        <a href="#" class="flex-item"><img src="img/portfolio/photo-8.jpg" alt="8">
+            <h3>BLABLA sdfsdfsdf dfsd sfsdf fsddfd</h3></a>
+        <a href="#" class="flex-item"><img src="img/portfolio/photo-9.jpg" alt="9">
+            <h3>BLABLA sdfsdfsdf dfsd sfsdf fsddfd</h3></a>
+        <a href="#" class="flex-item"><img src="img/portfolio/photo-10.jpg" alt="10">
+            <h3>BLABLA sdfsdfsdf dfsd sfsdf fsddfd</h3></a>
+        <a href="#" class="flex-item"><img src="img/portfolio/photo-11.jpg" alt="11">
+            <h3>BLABLA sdfsdfsdf dfsd sfsdf fsddfd</h3></a>
+        <a href="#" class="flex-item"><img src="img/portfolio/photo-12.jpg" alt="12">
+            <h3>BLABLA sdfsdfsdf dfsd sfsdf fsddfd</h3></a>
+
     </div>
 </section>
-<section class="contact">
+<section class="contact" id="contact">
     <h2>KONTAKT</h2>
     <HR></HR>
     <div class="contact-form">
@@ -60,8 +75,14 @@
         <input id="name" type="text" placeholder="Imię">
         <input id="email" type="email" placeholder="Email">
         <textarea id="message-text" placeholder="Wiadomość"></textarea>
-        <input type="submit" id="submit" value="WYŚLIJ WIADOMOŚĆ">
+        <input type="submit" class="button" id="submit" value="WYŚLIJ WIADOMOŚĆ">
     </form>
+    </div>
+    <div class="social">
+    <a href="#" class="social-item"><i class="fab fa-facebook-f fa-3x"></i></a>
+    <a href="#" class="social-item"><i class="fab fa-twitter fa-3x"></i></a>
+    <a href="#" class="social-item"><i class="fab fa-instagram fa-3x"></i></a>
+    <a href="#" class="social-item"><i class="fab fa-youtube fa-3x"></i></a>
     </div>
 </section>
 <footer id="footer">

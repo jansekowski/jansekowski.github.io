@@ -21,6 +21,13 @@ header{
     align-items: center;
 }
 
+header span{
+    color: blue;
+    font-weight: 900;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 h1{
     color: blue;
     font-size: 3em;
@@ -64,13 +71,27 @@ p, a{
     font-size: 1.5em;
 }
 
-a{
+.button{
     text-transform: uppercase;
     padding: 1em;
     border: 1px solid blue;
     text-decoration: none;
     display: inline-block;
     margin-top: 2em;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.section-link{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
 }
 
 .about{
@@ -94,39 +115,76 @@ a{
     width: 70%;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: space-between;
     margin-left: auto;
     margin-right: auto;
 }
 
 .flex-item{
-    width: 25%;
+    flex-basis: 25%;
+    height: 10em;
+    position: relative;
 }
 
-.contact-form{
-    background-color: yellowgreen;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 60em;
-    justify-content: space-between;
+
+.flex-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.flex-item h3{
+    visibility: hidden;
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: blue;
+    color: white;
+    opacity: 0.5;
+    padding: 20%;
+}
+
+.flex-item:hover h3{
+    visibility: visible;
+    transition: 0.5s linear;
+}
+
+.contact form{
+    max-width: 70em;
     margin: 40px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;        
 }
 
-.contact form input:(not[type:submit]){
+.contact form input:not([type="submit"]){
     padding: 1em;
-    flex-basis: 40%;
+    flex-basis: 49%;
     margin-bottom: 1.5em;
 }
 
-textarea{
-    font-family: 'Open Sans', sans-serif;
+.contact form textarea{
+    flex-basis: 100%;
     padding: 1em;
+    height: 10em;
+    font-family: 'Open Sans', sans-serif;
 }
 
-input[type=submit]{
-    background-color: transparent;
-    border: 1px solid blue;
-    padding: 1em;
+.social{
+    margin-left: 2em;
+    margin-right: 2em;
+    border: none;
+}
+
+.social a{
+    text-decoration: none;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 footer{
