@@ -28,6 +28,10 @@ header{
     color: #333;
 }
 
+.claim{
+    min-height: 50em;
+}
+
 header span{
     color: #007bff;
     font-weight: 900;
@@ -54,6 +58,10 @@ HR{
     background-color: #007bff;
     border: 1px solid #007bff;
     margin-bottom: 50px;
+}
+
+a#learn{
+    margin-bottom: 5em;
 }
 
 nav.menu{
@@ -220,6 +228,9 @@ footer{
     .flex-item{
         flex-basis: 47%;
     }
+
+    footer{
+        visibility: hidden;
+    }
 }
 
-}
