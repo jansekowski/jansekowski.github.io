@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    text-align: center;
+}
+
+.number{
+    font-size: 20em;
+}
+
+@keyframes nine{
+    0%, 100%{
+        content: "9";
+    }
+}
+
+@keyframes eight{
+    0%, 100%{
+        content: "8";
+    }
+}
+
+@keyframes seven{
+    0%, 100%{
+        content: "7";
+    }
+}
+
+@keyframes six{
+    0%, 100%{
+        content: "6";
+    }
+}
+
+@keyframes five{
+    0%, 100%{
+        content: "5";
+    }
+}
+
+@keyframes four{
+    0%, 100%{
+        content: "4";
+    }
+}
+
+@keyframes three{
+    0%, 100%{
+        content: "3";
+    }
+}
+
+@keyframes two{
+    0%, 100%{
+        content: "2";
+    }
+}
+
+@keyframes one{
+    0%, 100%{
+        content: "1";
+    }
+}
+
+@keyframes love{
+    0%, 100%{
+        content: "I love CSS! :)";
+    }
+}
+
+p#ten:before{
+    content: "10";
+    animation-name: nine, eight, seven, six, five, four, three, two, one, love;
+    animation-duration: 11s;
+    animation-delay: 1s, 2s, 3s, 4s, 5s, 6s, 7s, 8s, 9s, 10s;
+    animation-iteration-count: 1;
+}
+
+.number{
+    height: 50vh;
+}
