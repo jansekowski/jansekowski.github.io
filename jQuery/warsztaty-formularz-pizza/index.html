@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formularz zamówienia pizzy</title>
+</head>
+<body>
+   <form action="">
+    <label for="imie" >Imię</label><input type="text" name="imie" id="imie">
+    <br>
+    <label for="nazwisko">Nazwisko</label><input type="text" name="nazwisko" id="nazwisko">
+    <br>
+    <label for="ulica">Ulica</label><input type="text" name="ulica" id="ulica">
+    <br>
+    <label for="dom">Nr domu/mieszkania</label><input type="text" name="dom" id="dom">
+    <br>
+    <label for="kod">Kod pocztowy</label><input type="text" name="kod" id="kod">
+    <br>
+    <label for="miasto">Miasto</label> <input type="text" name="miasto" id="miasto">
+    <br>
+    <label for="pizza">Zamawiana pizza:</label><select name="pizza" id="rodzaj">
+        <option value="brak">--Wybierz pizzę--</option>
+        <option value="Pizza 1">Pizza 1</option>
+        <option value="Pizza 2">Pizza 2</option>
+        <option value="Pizza 3">Pizza 3</option>
+        <option value="Pizza 4">Pizza 4</option>
+        <option value="Pizza 5">Pizza 5</option>
+    </select><span id="cena"></span>
+    <br>
+    <input type="checkbox" name="sos1" id="sos1"><label for="sos1">sos 1</label>
+    <br>
+    <input type="checkbox" name="sos2" id="sos2"><label for="sos2">sos 2</label>
+    <br>
+    <input type="checkbox" name="rodo" id="rodo"><label for="rodo">Zgoda na RODO</label>
+    <button>Zamów!</button>
+    <p id="errors"></p>
+   </form>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
