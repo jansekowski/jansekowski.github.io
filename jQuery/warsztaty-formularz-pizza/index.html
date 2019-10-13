@@ -8,7 +8,7 @@
     <title>Formularz zamówienia pizzy</title>
 </head>
 <body>
-   <form action="">
+   <form id="zamowienie" action="">
     <label for="imie" >Imię</label><input type="text" name="imie" id="imie">
     <br>
     <label for="nazwisko">Nazwisko</label><input type="text" name="nazwisko" id="nazwisko">
@@ -23,11 +23,11 @@
     <br>
     <label for="pizza">Zamawiana pizza:</label><select name="pizza" id="rodzaj">
         <option value="brak">--Wybierz pizzę--</option>
-        <option value="Pizza 1">Pizza 1</option>
-        <option value="Pizza 2">Pizza 2</option>
-        <option value="Pizza 3">Pizza 3</option>
-        <option value="Pizza 4">Pizza 4</option>
-        <option value="Pizza 5">Pizza 5</option>
+        <option value="1">Pizza 1</option>
+        <option value="2">Pizza 2</option>
+        <option value="3">Pizza 3</option>
+        <option value="4">Pizza 4</option>
+        <option value="5">Pizza 5</option>
     </select><span id="cena"></span>
     <br>
     <input type="checkbox" name="sos1" id="sos1"><label for="sos1">sos 1</label>
@@ -35,8 +35,8 @@
     <input type="checkbox" name="sos2" id="sos2"><label for="sos2">sos 2</label>
     <br>
     <input type="checkbox" name="rodo" id="rodo"><label for="rodo">Zgoda na RODO</label>
-    <button>Zamów!</button>
-    <p id="errors"></p>
+    <button id="button">Zamów!</button>
+    <ul id="errors"></ul>
    </form>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
