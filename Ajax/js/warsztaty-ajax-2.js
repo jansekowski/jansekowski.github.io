@@ -7,4 +7,3 @@ $.getJSON("https://jsonplaceholder.typicode.com/users/1",
             $("#displayed-data").append("<li>" + data.id + ", " + data.username + ", " + data.website + "</li>");
         });
     });
-});
