@@ -25,6 +25,8 @@ h3{
     color: #888;
 }
 
+
+
 .nav-row{
     width: 100%;
 }
@@ -32,7 +34,9 @@ h3{
 .navbar{
     background-color: #444;
 }
-
+.navbar-toggler{
+    color:  #c2c2c2;
+}
 
 .navbar a{
     color:  #c2c2c2;
