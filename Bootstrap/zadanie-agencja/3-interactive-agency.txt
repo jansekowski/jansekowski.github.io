@@ -1,0 +1,12 @@
+Przychodzi do Ciebie klient, który zakłada agencje interaktywna i ma projekt graficzny zgodny z architekturą Bootstrapa.
+
+Klient jest nietechniczny, więc poza projektem nic więcej od niego nie wyciągniesz :)
+Zaplanuj, dobierz rozwiązania technologiczne i zakoduj projekt w Bootstrapie.
+
+Projekt graficzny i grafiki do projektu są w załączniku. 
+
+W sekcji "Portfolio", po najechaniu na obrazek, pojawia się maska i tło jak w załączonym pliku graficznym portfolio.
+
+Strona ma się dostosowywać do urządzeń mobilnych.
+
+Zadanie oddaj w formie linku do GitHub Pages.
