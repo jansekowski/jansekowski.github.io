@@ -1,0 +1,22 @@
+body {
+  background-color: #322234;
+  color: blue;
+  font-size: 15px; }
+
+p {
+  color: #322234;
+  background-color: black;
+  text-transform: uppercase;
+  font-family: sans-serif; }
+
+nav ul {
+  margin: 15px;
+  padding: 0px;
+  list-style: none; }
+  nav ul li {
+    display: inline-block;
+    background-color: #eee; }
+    nav ul li a {
+      color: #322234;
+      background-color: black;
+      text-transform: uppercase; }
