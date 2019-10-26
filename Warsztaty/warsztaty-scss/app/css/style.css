@@ -1,0 +1,93 @@
+header h2 {
+  color: #ffffff; }
+
+header h6 {
+  color: #ffffff; }
+
+header a {
+  color: #ffffff; }
+
+nav {
+  padding-top: 15px; }
+  nav .row-nav {
+    padding-left: 70px;
+    padding-right: 100px; }
+
+.nav-left {
+  display: inline; }
+  .nav-left i {
+    color: #ecd407; }
+
+.nav-right i {
+  color: #ffffff; }
+
+.nav-right-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+  .nav-right-left i {
+    font-size: 40px; }
+
+.section-form {
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 15%;
+  padding-bottom: 5%; }
+  .section-form .contact-form {
+    padding: 20px 15px 20px 15px;
+    background-color: #001d8a; }
+    .section-form .contact-form .leave-contact {
+      color: #ffffff;
+      padding-bottom: 10px; }
+    .section-form .contact-form input, .section-form .contact-form textarea {
+      width: 100%;
+      padding: 5px;
+      font-size: 0.8em;
+      margin: 5px; }
+    .section-form .contact-form .submit-button {
+      background-color: #ecd407;
+      width: 100px;
+      padding: 10px;
+      margin: 5px;
+      border: none;
+      font-size: 1.2em;
+      font-weight: 500; }
+      .section-form .contact-form .submit-button:hover {
+        background-color: #292929;
+        color: #ecd407; }
+  .section-form .claim {
+    color: #ffffff; }
+    .section-form .claim h4 {
+      padding-bottom: 15px; }
+    .section-form .claim span {
+      color: #ecd407; }
+
+footer {
+  background-color: #292929;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  color: #ffffff; }
+  footer .footer-item {
+    margin-top: 1em; }
+  footer .footer-icon {
+    background-color: #ecd407;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px; }
+  footer .footer-icon-text {
+    padding-top: 10px; }
+  footer .footer-bottom {
+    padding-top: 25px;
+    font-size: 0.8em; }
+
+.mobile {
+  background-color: transparent; }
+
+@media (max-width: 768px) {
+  header .nav-right-right {
+    display: none; }
+  header .row-nav {
+    padding-left: 0px;
+    padding-right: 0px; } }
