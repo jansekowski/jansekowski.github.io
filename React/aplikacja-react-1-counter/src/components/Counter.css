@@ -1,0 +1,15 @@
+.counter{
+    background-color: yellow;
+    color: black;
+}
+
+.counter h1{
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+.counter-dark{
+    background-color: black;
+    color: yellow;
+}
