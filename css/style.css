@@ -335,6 +335,11 @@ footer a{
         width: 100%;
     }
 
+#logo-div{
+    display: flex;
+    justify-content: center;
+}
+
     .portrait{
         width: 100%;
     }
