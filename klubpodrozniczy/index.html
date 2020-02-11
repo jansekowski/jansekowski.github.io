@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Klub podróżniczy</title>
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAWIGACJA -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="row nav-row">
+                    <div class="col-md-9">
+                        <a class="navbar-brand" href="#">Klub podróżniczy</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="col-md-3 nav-right">
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Dołącz do nas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Inspiracje</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- DIV ZE ZDJĘCIEM -->
+    <section>
+        <div class="container-fluid div-zdjecie">
+            <div class="container cont-dolacz-claim">
+                <div class="row">
+                    <div class="col-md-5 dolacz">
+                        <!-- NAGŁÓWEK FORMULARZA -->
+                        <div class="form-header row">
+                            <div class="col-md-10 dolacz-text">
+                                <h2 id="dolacz-text-big">Dołącz do nas!</h2>
+                                <p id="dolacz-text-small">Wypełnij zgłoszenie na członka klubu</p>
+                            </div>
+                            <!-- IKONA -->
+                            <div class="col-md-2 dolacz-ikona">
+                                <i class="fa fa-pencil"></i>
+                            </div>
+                        </div>
+
+                        <!-- FORMULARZ -->
+                        <form class="formularz text-center">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Imię i nazwisko">
+                            </div>
+                            <div class="form-group">
+                                <input type="mail" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Telefon">
+                            </div>
+
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Kilka słów o sobie"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary zapisz">Zapisz się!</button>
+                            <p class="rodo">Wypełniając zgłoszenie wyrażasz zgodę na przetwarzanie danych zgodnie z
+                                <a href="#" id="rodo-link">polityką prywatności</a>.</p>
+                        </form>
+                    </div>
+                    <!-- ŚWIAT JEST NA WYCIĄGNIĘCIE RĘKI -->
+                    <div class="col-md-7 claim text-center">
+                        <!-- card -->
+                        <div class="card text-center">
+                            <div class="card-body claim-content">
+                                <h2 class="card-title">Świat jest na wyciągnięcie ręki</h2>
+                                <p class="card-text">Poznaj ludzi, których łączy wspólna pasja do podróżowania.
+                                    Przekonaj się, jak wygląda życie bez granic.
+                                </p>
+                                <a href="#" class="btn btn-primary" id="znajdz">Znajdź nas <i
+                                        class="fa fa-chevron-right"></i></a>
+                                <a href="#" class="btn btn-secondary" id="dowiedz">Dowiedz się więcej <i
+                                        class="fa fa-lightbulb-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEKCJA INSPIRUJEMY -->
+    <section id="inspirujemy">
+        <div class="inspire-vid-text container">
+            <div class="row inspire-row">
+                <div class="inspire inspire-vid col-md-5">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://player.vimeo.com/video/115014610"></iframe>
+                    </div>
+                </div>
+                <div class="inspire inspire-text col-md-7">
+                    <h3>Inspirujemy</h3>
+                    <p class=light-back-text>Poznaj historie ludzi, którzy spełnili swoje marzenia</p>
+                    <p class=light-back-text>Podróżowanie pozwala poznać świat i odkryć siebie. Spełniaj swoje marzenia
+                        i zdobywaj nowe pasje.
+                        Daj się ponieść przygodzie i dołącz do grona pasjonatów, którzy codziennie udowadniają, że nie
+                        ma rzeczy niemożliwych</p>
+                    <p><a href="#">Więcej historii</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about col-md-6">
+                    <h3>O nas</h3>
+                    <p class=light-back-text>Naszym głównym celem jest wymiana doświadczeń między podróżnikami podczas
+                        cyklicznych spotkań.
+                        Naszym
+                        największym kapitałem jest wiedza i zaangażowanie naszych członków</p>
+                </div>
+                <div class="about col-md-6">
+                    <h3>Kontakt</h3>
+                    <p><a href=mailto:klub@podroznika.pl>klub@podroznika.pl</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQUery (konieczne, żeby działał bootstrap), popper, bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
