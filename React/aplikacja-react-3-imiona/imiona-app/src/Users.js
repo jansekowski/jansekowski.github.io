@@ -19,8 +19,8 @@ class Users extends Component {
 
         let newUser = {
             key: Date.now(),
-            firstName: this._inputFirstName.value,
-            lastName: this._inputLastName.value
+            firstName: this._inputFirstName.value.trim(),
+            lastName: this._inputLastName.value.trim()
         }
         console.log(newUser);
 

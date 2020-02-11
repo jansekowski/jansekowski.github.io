@@ -7,9 +7,7 @@ import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
-      <Counter initValue={10}/>
-      <Counter initValue={100}/>
-      <Counter initValue={1000}/>
+      <Counter initValue={10} />
     </div>
   );
 }

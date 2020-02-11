@@ -1,0 +1,272 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form a{
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #c61870;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: #c61870;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h3{
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.light-back-text{
+    color: #444;
+}
+
+#appointment{
+    margin-top: 20px;
+}
+
+.nav-row{
+    width: 100%;
+}
+
+.navbar{
+    background-color:white;
+}
+.navbar-toggler{
+    color:  #c2c2c2;
+}
+
+.navbar a{
+    color: #2c4491;
+}
+
+.navbar a:hover{
+    color: #c61870;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.slogan{
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+#pinktext{
+    color:#c61870;
+}
+
+.div-services{
+    display: flex;
+    max-height: 600px;
+    background-image: url("../img/foot2.jpg");
+    background-size: cover;
+    background-position: 0vh;
+    justify-content: baseline;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.row-services{
+    padding: 20px;
+    /* background-color: rgba(0,0,0, 0.1); */
+}
+
+.row-services p{
+    color: #444;
+    font-weight: 800;
+}
+
+.row-services h4{
+    color: white;
+    font-weight: 900;
+}
+
+.service{
+    text-align: center;
+}
+
+.service h4{
+    color: #2c4491;
+}
+
+.service-logo{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.div-zdjecie{
+    min-height: 800px;
+    /* background-image: url("../img/knee.jpg"); */
+    background-size: cover;
+    background-color:rgba(44, 68, 135, 0.9);
+    /* background-image: linear-gradient(to top, #2c4491 , white); */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.dolacz{
+    /* background-color: red; */
+    background-color: rgba(44, 68, 135, 9);
+
+}
+.claim{
+    /* background-color: green; */
+    /* padding-right: 50px;
+    padding-left: 50px; */
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.portrait{
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.formularz{
+    padding: 20px;
+}
+
+.formularz p{
+    font-size: 15px;
+}
+
+#dolacz-text-small{
+    margin-bottom: 0px;
+}
+
+.form-group{
+    color: #c2c2c2;
+}
+
+.form-header{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 20px;
+}
+
+.dolacz-ikona{
+    font-size: 70px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #c61870;
+}
+
+.form-control{
+    padding: 20px;
+}
+
+#exampleFormControlTextarea1{
+    height: 200px;
+}
+
+.zapisz{
+    width: 100%;
+}
+
+.rodo{
+    margin-top: 10px;
+    color: white;
+}
+
+.fa-chevron-right{
+    margin-left: 10px;
+}
+
+.dolacz-text{
+    /* padding-left: 40px; */
+}
+
+
+
+.claim-content{
+    background-color: transparent;
+}
+.card{
+    background-color: transparent;
+    border: 0px;
+
+}
+
+.card-title{
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.card-text{
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn-primary{
+    background-color: #c61870;
+    border: 0px;
+    padding: 15px;
+}
+
+.btn-secondary{
+    background-color: rgba(0, 0, 0, 0.35);
+    border: 0px;
+    padding: 15px;
+    color: #c2c2c2;
+}
+
+
+
+.inspire-row{
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.inspire-vid{
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+
+footer{
+background-color: #f8f8f8;
+height: 350px;
+padding-top: 50px;
+}
+
+.about{
+    padding: 35px;
+}
+
+footer h3{
+    color: #2c4491;
+}
+
+footer a{
+    color: #c61870;
+}
+
+footer i{
+    color: #c61870;
+    margin-right: 10px;
+}

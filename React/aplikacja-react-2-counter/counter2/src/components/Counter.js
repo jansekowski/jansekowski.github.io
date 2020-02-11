@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ButtonsPanel from "./ButtonsPanel";
 import Title from "./Title";
+import Step from "./Step";
 
 // Tylko komponenty klasowe mają stan - this.state
 class Counter extends Component {
@@ -9,26 +10,28 @@ class Counter extends Component {
 
         let iVal = (this.props.initValue == undefined) ? 0 : this.props.initValue;
 
+
         // stan komponentu inicjujemy w konstruktorach
         this.state = {
-            value: iVal
+            value: iVal,
+            step: 1
         }
     }
 
     changeValue = () => {
         this.setState((poprzedniStan) => {
             return {
-                value: poprzedniStan.value + 1
+                value: parseFloat(poprzedniStan.value) + parseFloat(this.state.step)
             };
 
         });
-        console.log("Wywołuję na click w ButtonsPanel metodę utworzoną w rodzicu (czyli w Counter)");
+
     }
 
     zeroValue = () => {
         this.setState(() => {
             return {
-                value: this.props.initValue
+                value: 0
             };
         });
     }
@@ -36,9 +39,20 @@ class Counter extends Component {
     resetValue = () => {
         this.setState(() => {
             return {
-                value: 0
+                value: this.props.initValue
             };
         });
+    }
+
+    addStep = (step) => {
+        console.log(step);
+
+        this.setState(() => {
+            return {
+                step: step
+            };
+
+        })
     }
 
 
@@ -47,6 +61,7 @@ class Counter extends Component {
             <div className="counter-component">
                 <Title counterValue={this.state.value} />
                 <ButtonsPanel akcja={this.changeValue} zeroAkcja={this.zeroValue} resetAkcja={this.resetValue} />
+                <Step step={this.state.step} stepChange={this.addStep} />
             </div>
         )
     }

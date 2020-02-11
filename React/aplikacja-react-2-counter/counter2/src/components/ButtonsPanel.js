@@ -4,6 +4,8 @@ import "./ButtonsPanel.css";
 class ButtonsPanel extends Component {
     constructor(props) {
         super(props);
+
+
     }
 
     handleClick = () => {
@@ -15,8 +17,8 @@ class ButtonsPanel extends Component {
         this.props.zeroAkcja();
     }
 
-    resetClick=()=>{
-        // this.props.resetAkcja();
+    resetClick = () => {
+        this.props.resetAkcja();
         console.log("Reset licznika");
     }
 

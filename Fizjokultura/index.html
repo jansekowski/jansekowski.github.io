@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fizjokultura by Kamil Góra</title>
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAWIGACJA -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+            
+                <div class="row nav-row">
+                    <div class="col-md-9">
+                        <a class="navbar-brand" href="#"><img alt="Fizjokultura" src="img/logo-fizjokultura-poziom-rgb-podpis.png"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="col-md-3 nav-right">
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">USŁUGI</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">O MNIE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">KONTAKT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+            <div class="container-fluid div-services">
+                <div class="container cont-services">
+                        <div class ="row">
+                                <div class="col-md-12 slogan">
+                                    <h2>Pomagam ludziom <span id="pinktext">pozbyć się bólu</span></h2>
+                                </div>
+                            </div>
+                    <div class="row row-services">
+                            <div class="col-md-4 service">
+                                    <div class="item-circle">
+                                        <img class="service-logo" src="img/logo-bw2.png">
+                                    </div>
+                                    <h4>Kolana</h4>
+                                    <p>Łąkotki, więzadła, rzepki i inne niezwykle ważne elementy stawów kolanowych naprawiam wielce profesjonalnie i z uśmiechem na ustach :-)</p>
+                                </div>
+                                
+                                <div class="col-md-4 service">
+                                    <div class="item-circle">
+                                      <img class="service-logo" src="img/logo-bw1.png">
+                                    </div>
+                                    <h4>Kręgosłupy</h4>
+                                    <p>Specjalizuję się we wszystkich kręgach: szyjnych, piersiowych i lędźwiowych. I w kości ogonowej. Pomogę, jeśli boli i zrobię upgrade, jeśli nie boli.</p>
+                                </div>
+                                
+                                <div class="col-md-4 service">
+                                    <div class="item-circle">
+                                        <img class="service-logo" src="img/logo-bw2.png">
+                                    </div>
+                                    <h4>Tapingi</h4>
+                                    <p>Najmodniejsze tejpy we wszystkich kolorach tęczy, żeby wszyscy widzieli, że jesteś aktywnym człowiekiem uprawiającym mnóstwo sportów. Sportowcy w telewizji takie noszą!</p>
+                                </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- DIV ZE ZDJĘCIEM -->
+    <section>
+        <div class="container-fluid div-zdjecie">
+            <div class="container cont-dolacz-claim">
+                <div class="row">
+                        <div class="col-md-8 claim ">
+                                <!-- card -->
+                                <div class="card ">
+                                    <div class="card-body claim-content">
+                                        <img class="portrait" src="img/portrait.jpg">
+                                        <h2 class="card-title">Czym się zajmuję?</h2>
+                                        <p class="card-text">Pomagam ludziom pozbyć się bólu.</p>
+                                        <p class="card-text">Tłumaczę, skąd się wziął i dlaczego nie zawsze chce nas zostawić w spokoju.</p>
+                                        <p class="card-text">Pomagam moim Pacjentom wrócić do aktywności fizycznej.</p>
+                                        <a href="https://www.moment.pl/s/fizjoklinika?is_compact=true" class="btn btn-primary" id="appointment">Umów się na wizytę!<i class="fa fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                    <div class="col-md-4 dolacz">
+                        <!-- NAGŁÓWEK FORMULARZA -->
+                        <div class="form-header row">
+                            <div class="col-md-12 dolacz-text">
+                                <h3 id="dolacz-text-big">Napisz do mnie</h2>
+                                <p id="dolacz-text-small">i dowiedz się, w jaki sposób mogę Ci pomóc.</p>
+                            </div>
+                            <!-- IKONA -->
+                            
+                        </div>
+
+                        <!-- FORMULARZ -->
+                        <form class="formularz text-center">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Imię i nazwisko" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="mail" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Adres e-mail" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Telefon" required>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Treść wiadomości"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary zapisz">Wyślij</button>
+                            <p class="rodo">Wypełniając zgłoszenie wyrażasz zgodę na przetwarzanie danych zgodnie z
+                                <a href="#" id="rodo-link">polityką prywatności</a>.</p>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- FOOTER -->
+    <footer id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about col-md-8">
+                    <h3>mgr Kamil Góra</h3>
+                    <p class=light-back-text>
+                            <i class="fa fa-check"></i>Absolwent <b>Akademii Wychowania Fizycznego w Warszawie</b>.
+                    </p>
+                    <p class=light-back-text>
+                            <i class="fa fa-check"></i>Ukończone całe mnóstwo znakomitych kursów: <b>NIFSB, JDOAM, MVB, SAPJ</b>.
+                    </p>
+                    <p class=light-back-text>
+                            <i class="fa fa-check"></i><b>37 lat doświadczenia</b> w pracy fizjoterapeuty i miliardy zadowolonych Pacjentów.
+                    </p>
+                </div>
+                <div class="about col-md-4">
+                    <h3>Kontakt</h3>
+                    <p><a href=mailto:kontakt@fizjokultura.pl>kontakt@fizjokultura.pl</a></p>
+                    <p><a href=tel:+48720810058>663-735-924</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQUery (konieczne, żeby działał bootstrap), popper, bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
