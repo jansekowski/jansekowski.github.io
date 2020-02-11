@@ -334,4 +334,16 @@ footer a{
     #logo{
         width: 100%;
     }
+
+    .portrait{
+        width: 100%;
+    }
+
+    .about{
+        padding-left: 10px;
+    }
+
+    .about h4{
+        font-size: 1em;
+    }
 }
