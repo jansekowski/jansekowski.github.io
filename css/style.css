@@ -329,3 +329,9 @@ footer a{
 .about h4 a{
     color: #2c4491;
 }
+
+@media only screen and (max-width: 768px){
+    #logo{
+        width: 100%;
+    }
+}
